@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .box {
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin: 0 20px auto;
+            margin-top: 20px;
+            width: 80%;
+            max-width: 300px;
+        }
+
+        .custom-hr {
+            width: 120px;
+            margin: 0 auto;
+        }
+
+
+        .img-fluid {
+            height: 250px; 
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Livros</h1>
+                <hr class="custom-hr">
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 box">
+                    <img src="imagens/CDA.jpeg" class="img-fluid" alt="Livro 1">
+                    <p>CapitÃµes da Areia<br>Jorge Amado</p>
+                </div>
+                <div class="col-md-4 box">
+                    <img src="imagens/VS.jpeg" class="img-fluid" alt="Livro 2">
+                    <p>Vidas Secas<br>Graciliano Ramos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
